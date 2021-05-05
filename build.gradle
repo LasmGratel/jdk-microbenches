@@ -25,8 +25,9 @@ jmh {
 //    includes = ['org.openjdk.bench.vm']
     iterations = 5
     warmupIterations = 3
-    batchSize = 3
+    batchSize = 1
     fork = 2
+    resultFormat = 'JSON'
 }
 
 

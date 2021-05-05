@@ -7,7 +7,8 @@ Change your JMH settings in `build.gradle`. If you are using Java 16, you may co
 
 **Requires Java 15+**
 
-Simply execute `gradlew jmh`.
+Simply execute `gradlew jmh`. Result can be found in `build/results/jmh` which can be uploaded to <http://deepoove.com/jmh-visual-chart/> to visualize.
+
 
 ## License
 
