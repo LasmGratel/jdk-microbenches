@@ -22,12 +22,11 @@ dependencies {
 }
 
 jmh {
-    benchmarkMode = ['thrpt'] // Benchmark mode. Available modes are: [Throughput/thrpt, AverageTime/avgt, SampleTime/sample, SingleShotTime/ss, All/all]
-    iterations = 3
-    warmupIterations = 1
-    batchSize = 8
-    fork = 1
-    threads = 8
+//    includes = ['org.openjdk.bench.vm']
+    iterations = 5
+    warmupIterations = 3
+    batchSize = 3
+    fork = 2
 }
 
 
